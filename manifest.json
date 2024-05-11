@@ -3,7 +3,7 @@
     "name": "YouTube Redirect",
     "version": "1.0",
     "description": "Redirects to a custom HTML page when accessing YouTube.",
-    "permissions": ["activeTab"],
+    "permissions": ["storage", "tabs"],
     "background": {
       "service_worker": "background.js"
     },

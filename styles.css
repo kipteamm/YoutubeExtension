@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 7vh;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    padding: 12.5px 25px;
+    border-radius: 12.5px;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-right: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    background-color: #d8d8d8;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 6.25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
