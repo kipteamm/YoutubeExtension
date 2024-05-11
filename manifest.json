@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Redirect",
+    "version": "1.0",
+    "description": "Redirects to a custom HTML page when accessing YouTube.",
+    "permissions": ["activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
